@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home Automation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f6f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #0d6efd;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 250px;
+      margin: 15px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      margin-bottom: 10px;
+      font-size: 22px;
+      color: #0d6efd;
+    }
+
+    .card button {
+      background-color: #0d6efd;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .card button:hover {
+      background-color: #0b5ed7;
+    }
+
+    footer {
+      background-color: #0d6efd;
+      text-align: center;
+      color: white;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Smart Home Automation</h1>
+    <p>Control your home devices remotely</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Living Room Lights</h2>
+      <button>Turn On</button>
+    </div>
+    <div class="card">
+      <h2>Air Conditioner</h2>
+      <button>Turn Off</button>
+    </div>
+    <div class="card">
+      <h2>Smart Door Lock</h2>
+      <button>Lock</button>
+    </div>
+    <div class="card">
+      <h2>Security Camera</h2>
+      <button>View</button>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Smart Home Inc. | Designed by Praveena
+  </footer>
+
+</body>
+</html>
